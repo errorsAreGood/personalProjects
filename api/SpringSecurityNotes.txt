@@ -1,0 +1,28 @@
+Spring Security 
+
+pom 
+
+<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+
+
+
+Authentication : is it the right user ? userId & password, biometrics , multifactor authentication 
+
+Authorization : chmod , rights of a user , user xyz can only read data , user abc can only download data 
+
+an authenticated user can have limited/full authorization .
+
+suppose you login to a machine , hence you are authenticated , but you cant read or delete a file , 
+hence you are not authorized to perform the action 
+
+security principles :
+1.
+2.
+3.
+4.
+5.
+6.
+
